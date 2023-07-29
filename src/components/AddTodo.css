@@ -1,0 +1,59 @@
+
+ .addtodo-wrapper {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; 
+  }
+  
+  .addtodo {
+    display: flex;
+    align-items: center; 
+    max-width: 400px; 
+    width: 90%;
+    padding: 10px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+  }
+  
+  .addtodo input {
+    flex: 1; 
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .addtodo button {
+    flex-shrink: 0; 
+    padding: 12px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.35s;
+  }
+  
+  .addtodo button:hover {
+    background-color: #043825;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .addtodo {
+      flex-direction: column; 
+      align-items: stretch;
+      text-align: center; 
+    }
+  
+    .addtodo button {
+      margin-left: 0; 
+      margin-top: 10px; 
+    }
+  }
+  

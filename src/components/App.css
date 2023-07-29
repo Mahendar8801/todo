@@ -1,0 +1,13 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    background-color: #f5f5f5; 
+}
+
+

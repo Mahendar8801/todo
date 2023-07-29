@@ -1,0 +1,22 @@
+.todo-list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.todo-item p {
+    flex: 1;
+    margin: 0 10px;
+    word-break: break-all;
+}
+
+.fa-trash-alt:hover {
+    cursor: pointer;
+}
